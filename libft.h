@@ -6,7 +6,7 @@
 /*   By: egeorgel <egeorgel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 15:51:12 by egeorgel          #+#    #+#             */
-/*   Updated: 2023/02/10 02:07:12 by egeorgel         ###   ########.fr       */
+/*   Updated: 2023/07/21 23:57:23 by egeorgel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void*));
 int		ft_printf(const char	*str, ...);
 int		ft_fprintf(int fd, const char	*str, ...);
 char	*ft_strjoinfree(char *s1, char *s2, bool free_s1, bool free_s2);
-bool	ft_strcmp(char *str, char *cmp);
+bool	ft_strcmp(const char *str, const char *cmp);
 char	*get_next_line(int fd);
 
 #endif
